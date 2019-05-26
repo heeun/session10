@@ -1,0 +1,14 @@
+<div class="container">
+    
+<form action="{% url 'diary_create' %}">
+  <h4>today's title: </h4>
+  <input type="text" name="title">
+  <br>
+  <br>
+  <h4>context: </h4>
+  <textarea cols=40 rows=10 name="body"></textarea>
+  <br>
+  <br>
+  <input class="btn btn-dark" type="submit" value="제출하기">
+</form>
+</div>
